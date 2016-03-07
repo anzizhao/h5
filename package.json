@@ -1,0 +1,25 @@
+{
+  "name": "h5",
+  "version": "1.0.0",
+  "description": "h5的模板",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anzizhao/h5.git"
+  },
+  "author": "zja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anzizhao/h5/issues"
+  },
+  "homepage": "https://github.com/anzizhao/h5#readme",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.0"
+  }
+}

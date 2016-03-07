@@ -1,0 +1,17 @@
+{
+  "name": "h5",
+  "version": "0.0.0",
+  "homepage": "https://github.com/anzizhao/h5",
+  "authors": [
+    "anzizhao <anzizhao@126.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

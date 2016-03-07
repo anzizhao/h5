@@ -1366,83 +1366,83 @@ img {
   width: 0.6rem;
   height: 0.6rem; }
 
-.page9 .region .check-protocol .checkbox.clicked {
-  background: url(../images/page9-check.png) no-repeat;
-  background-size: 100% 100%; }
+/*.page9 .region .check-protocol .checkbox.clicked {*/
+  /*background: url(../images/page9-check.png) no-repeat;*/
+  /*background-size: 100% 100%; }*/
 
-.page9 .region .check-protocol div.protocol {
-  float: left;
-  height: 0.6rem;
-  line-height: 0.6rem; }
+/*.page9 .region .check-protocol div.protocol {*/
+  /*float: left;*/
+  /*height: 0.6rem;*/
+  /*line-height: 0.6rem; }*/
 
-.page9 .region .check-protocol div.protocol a.protocol {
-  color: #00c394; }
+/*.page9 .region .check-protocol div.protocol a.protocol {*/
+  /*color: #00c394; }*/
 
-.page9 .region .check-protocol .error {
-  position: absolute;
-  left: 1.90rem;
-  bottom: 0;
-  font-size: 0.5rem; }
+/*.page9 .region .check-protocol .error {*/
+  /*position: absolute;*/
+  /*left: 1.90rem;*/
+  /*bottom: 0;*/
+  /*font-size: 0.5rem; }*/
 
-.page9 .region .submit {
-  overflow: hidden;
-  margin-top: 8.6rem; }
+/*.page9 .region .submit {*/
+  /*overflow: hidden;*/
+  /*margin-top: 8.6rem; }*/
 
-@media (max-height: 480px) {
-  .page9 .region .submit {
-    padding-bottom: 0.75rem; } }
-@media (min-height: 481px) {
-  .page9 .region .submit {
-    padding-bottom: 1.8rem; } }
-.page9 .region .submit .no-submit {
-  float: right;
-  font-size: 0.467rem;
-  color: #d5d5d5;
-  margin-top: 0.65rem;
-  text-decoration: underline; }
+/*@media (max-height: 480px) {*/
+  /*.page9 .region .submit {*/
+    /*padding-bottom: 0.75rem; } }*/
+/*@media (min-height: 481px) {*/
+  /*.page9 .region .submit {*/
+    /*padding-bottom: 1.8rem; } }*/
+/*.page9 .region .submit .no-submit {*/
+  /*float: right;*/
+  /*font-size: 0.467rem;*/
+  /*color: #d5d5d5;*/
+  /*margin-top: 0.65rem;*/
+  /*text-decoration: underline; }*/
 
-.page10 .cover {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 16rem;
-  height: 100%;
-  background: url(../images/page10_cover.png) no-repeat;
-  background-size: 100% 100%; }
+/*.page10 .cover {*/
+  /*position: absolute;*/
+  /*left: 0;*/
+  /*top: 0;*/
+  /*width: 16rem;*/
+  /*height: 100%;*/
+  /*background: url(../images/page10_cover.png) no-repeat;*/
+  /*background-size: 100% 100%; }*/
 
-.page10 .region .done-check .done-check-img {
-  height: 8.45rem;
-  background: url(../images/right.gif) 50% 50% no-repeat;
-  background-size: 5.7rem 5.7rem; }
+/*.page10 .region .done-check .done-check-img {*/
+  /*height: 8.45rem;*/
+  /*background: url(../images/right.gif) 50% 50% no-repeat;*/
+  /*background-size: 5.7rem 5.7rem; }*/
 
-.page10 .region .done-check .done-check-text {
-  color: #00c394;
-  text-align: center;
-  font-size: 0.75725rem;
-  height: 2.025rem; }
+/*.page10 .region .done-check .done-check-text {*/
+  /*color: #00c394;*/
+  /*text-align: center;*/
+  /*font-size: 0.75725rem;*/
+  /*height: 2.025rem; }*/
 
-.page10 .region .scan-code {
-  height: 6.925rem;
-  line-height: 6.925rem;
-  text-align: center; }
-  .page10 .region .scan-code img {
-    display: inline;
-    vertical-align: middle;
-    width: 10.075rem;
-    height: 4.6rem; }
+/*.page10 .region .scan-code {*/
+  /*height: 6.925rem;*/
+  /*line-height: 6.925rem;*/
+  /*text-align: center; }*/
+  /*.page10 .region .scan-code img {*/
+    /*display: inline;*/
+    /*vertical-align: middle;*/
+    /*width: 10.075rem;*/
+    /*height: 4.6rem; }*/
 
-.page10 .region .share {
-  margin-top: 0.85rem;
-  padding-bottom: 1.5rem; }
-  .page10 .region .share .submit-btn span {
-    display: block;
-    margin-top: -0.7rem;
-    font-size: 0.55rem; }
-  .page10 .region .share .submit-btn {
-    width: 9.65rem;
-    height: 3.05rem;
-    margin: 0 auto;
-    font-size: 0.85rem; }
+/*.page10 .region .share {*/
+  /*margin-top: 0.85rem;*/
+  /*padding-bottom: 1.5rem; }*/
+  /*.page10 .region .share .submit-btn span {*/
+    /*display: block;*/
+    /*margin-top: -0.7rem;*/
+    /*font-size: 0.55rem; }*/
+  /*.page10 .region .share .submit-btn {*/
+    /*width: 9.65rem;*/
+    /*height: 3.05rem;*/
+    /*margin: 0 auto;*/
+    /*font-size: 0.85rem; }*/
 
 .haveget {
   text-align: center;

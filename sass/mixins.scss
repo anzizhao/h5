@@ -1,0 +1,31 @@
+// Mixins
+@mixin translate3d($p,  $s,  $t) {
+    -webkit-transform: translate3d($p, $s, $t);
+    -moz-transform: translate3d($p, $s, $t);
+    -ms-transform: translate3d($p, $s, $t);
+    transform: translate3d($p, $s, $t); 
+}
+
+@mixin animationFir($p,  $s,  $t, $u) {
+    -webkit-animation: $p, $s, $t, $u;
+    animation: $p, $s, $t, $u ; 
+}
+
+@mixin translateF ($p,  $s ) {
+    -webkit-transform: translate($p, $s);
+    transform: translate($p, $s); 
+}
+
+@mixin messFlyIn ($p,  $s ) {
+    -webkit-animation: $p $s;
+    animation: $p $s; 
+}
+    -webkit-transform: translate($p, $s);
+    transform: translate($p, $s); 
+}
+
+
+
+
+
+
