@@ -37,6 +37,7 @@ module.exports  = function(grunt) {
                 files: 'sass/*.scss',
                 tasks: ['sass'],
                 options: {
+
                 },
             },
         },
@@ -46,4 +47,6 @@ module.exports  = function(grunt) {
     // 加载包含 "uglify" 任务的插件。
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-sass'); 
+    grunt.loadNpmTasks('grunt-contrib-watch'); 
+
 };

@@ -1,0 +1,60 @@
+/*
+Error: Invalid CSS after "$pageOneBG": expected selector or at-rule, was ": "../images/pa..."
+        on line 3 of sass/variables.scss
+        from line 1 of sass/login.m.scss
+
+1: // Variables
+2: $loadingImage: "../images/loading.gif"
+3: $pageOneBG: "../images/page1_bg.png"
+4: $weixinImage: "../images/weixin.png"
+5: $huadongOne: "../images/weixin.png"
+6: $pageTwoBG: "../images/page2_bg.png"
+7: $pageNameOne: "../images/mumua.png"
+8: $pageNameTwo: "../images/mix.gif"
+
+Backtrace:
+sass/variables.scss:3
+sass/login.m.scss:1
+/var/lib/gems/1.9.1/gems/sass-3.4.18/lib/sass/scss/parser.rb:1164:in `expected'
+/var/lib/gems/1.9.1/gems/sass-3.4.18/lib/sass/scss/parser.rb:1098:in `expected'
+/var/lib/gems/1.9.1/gems/sass-3.4.18/lib/sass/scss/parser.rb:43:in `parse'
+/var/lib/gems/1.9.1/gems/sass-3.4.18/lib/sass/engine.rb:403:in `_to_tree'
+/var/lib/gems/1.9.1/gems/sass-3.4.18/lib/sass/engine.rb:309:in `to_tree'
+/var/lib/gems/1.9.1/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:324:in `block in visit_import'
+/var/lib/gems/1.9.1/gems/sass-3.4.18/lib/sass/stack.rb:88:in `block in with_import'
+/var/lib/gems/1.9.1/gems/sass-3.4.18/lib/sass/stack.rb:115:in `with_frame'
+/var/lib/gems/1.9.1/gems/sass-3.4.18/lib/sass/stack.rb:88:in `with_import'
+/var/lib/gems/1.9.1/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:323:in `visit_import'
+/var/lib/gems/1.9.1/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.18/lib/sass/stack.rb:79:in `block in with_base'
+/var/lib/gems/1.9.1/gems/sass-3.4.18/lib/sass/stack.rb:115:in `with_frame'
+/var/lib/gems/1.9.1/gems/sass-3.4.18/lib/sass/stack.rb:79:in `with_base'
+/var/lib/gems/1.9.1/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/var/lib/gems/1.9.1/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:52:in `map'
+/var/lib/gems/1.9.1/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/var/lib/gems/1.9.1/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/var/lib/gems/1.9.1/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/var/lib/gems/1.9.1/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/var/lib/gems/1.9.1/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/var/lib/gems/1.9.1/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.18/lib/sass/tree/root_node.rb:36:in `css_tree'
+/var/lib/gems/1.9.1/gems/sass-3.4.18/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/var/lib/gems/1.9.1/gems/sass-3.4.18/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/var/lib/gems/1.9.1/gems/sass-3.4.18/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/var/lib/gems/1.9.1/gems/sass-3.4.18/lib/sass/exec/sass_scss.rb:410:in `run'
+/var/lib/gems/1.9.1/gems/sass-3.4.18/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/var/lib/gems/1.9.1/gems/sass-3.4.18/lib/sass/exec/base.rb:52:in `parse'
+/var/lib/gems/1.9.1/gems/sass-3.4.18/lib/sass/exec/base.rb:19:in `parse!'
+/var/lib/gems/1.9.1/gems/sass-3.4.18/bin/sass:13:in `<top (required)>'
+/usr/local/bin/sass:23:in `load'
+/usr/local/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"$pageOneBG\": expected selector or at-rule, was \": \"../images/pa...\"\A         on line 3 of sass/variables.scss\A         from line 1 of sass/login.m.scss\A \A 1: // Variables\A 2: $loadingImage: \"../images/loading.gif\"\A 3: $pageOneBG: \"../images/page1_bg.png\"\A 4: $weixinImage: \"../images/weixin.png\"\A 5: $huadongOne: \"../images/weixin.png\"\A 6: $pageTwoBG: \"../images/page2_bg.png\"\A 7: $pageNameOne: \"../images/mumua.png\"\A 8: $pageNameTwo: \"../images/mix.gif\""; }

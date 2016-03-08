@@ -217,8 +217,8 @@ clear: both; }
                         color: #999; 
                     }
                 }
-
             }
+
 
             .page1LiAnimate {
                 @include animationFir(fir, 0.4s,  ease-in-out, both);
@@ -232,7 +232,7 @@ clear: both; }
             bottom: 10%;
             background:url($huadongOne) no-repeat center top;
             background-size: 100% 100%;
-            $include animationFir( swipeAll, 1.5s, infinite, 0.5s )
+            @include animationFir( swipeAll, 1.5s, infinite, 0.5s );
 
             p {
                 width: 10.55rem;
@@ -403,7 +403,7 @@ clear: both; }
                 @include translateF(0, 1039px)
             }
             .liAnimate {
-                $include messFlyIn(messFlyIn, 0.3s)
+                @include messFlyIn(messFlyIn, 0.3s)
             }
             li {
                 padding: 0.5rem 0 0 0.5rem;
