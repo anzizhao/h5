@@ -35,7 +35,7 @@ img {
 
 @font-face {
   font-family: xifont;
-  src: url("../images/HelveticaNeueLTPro-UltLtEx.otf"); }
+  src: url("../fonts/HelveticaNeueLTPro-UltLtEx.otf"); }
 .tips, .page3 .call, .page1 .unlock, .page4 .hangupBtn .audio, .page4 .dudu, .page5 .wordBG {
   display: none;
   position: absolute;
